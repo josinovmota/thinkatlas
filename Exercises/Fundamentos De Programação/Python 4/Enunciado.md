@@ -1,0 +1,1 @@
+# 🐍 PYTHON — FizzBuzz com variação: substitui cada terceira palavra de uma frase por 'Fizz'
