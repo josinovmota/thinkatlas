@@ -23,6 +23,7 @@ while(calculo.count("*") != 0):
 
     calculo = calculo.replace(parte_anterior, nova_parte)
 
+
 while(calculo.count("/") != 0):
     mo = divisao_regex.search(calculo)
     parte_anterior = mo.group()
