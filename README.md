@@ -1,4 +1,4 @@
 # thinkatlas
 
-![thinkatlas_text](assets\data-science-banner.svg)
+![thinkatlas_text](assets\data-science-banner.png)
 
