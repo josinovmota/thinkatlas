@@ -1,0 +1,68 @@
+page-settings:
+    data:
+        pages: []
+        perShardPerkBooks:
+            br1:
+                currentPageId: 419411737
+                pages:
+                -   autoModifiedSelections: []
+                    current: true
+                    id: 419411737
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isRecommendationOverride: false
+                    isTemporary: false
+                    isValid: true
+                    lastModified: 1682157037278
+                    name: "Hecarim PUTO"
+                    order: 0
+                    primaryStyleId: 8000
+                    recommendationChampionId: 0
+                    recommendationIndex: -1
+                    runeRecommendationId: ""
+                    selectedPerkIds:
+                    - 8008
+                    - 9111
+                    - 9104
+                    - 8299
+                    - 8473
+                    - 8451
+                    - 5005
+                    - 5008
+                    - 5002
+                    subStyleId: 8400
+                -   autoModifiedSelections: []
+                    current: false
+                    id: 594993602
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isRecommendationOverride: false
+                    isTemporary: false
+                    isValid: true
+                    lastModified: 1680897429153
+                    name: "Lee"
+                    order: 2
+                    primaryStyleId: 8000
+                    recommendationChampionId: 0
+                    recommendationIndex: -1
+                    runeRecommendationId: ""
+                    selectedPerkIds:
+                    - 8010
+                    - 9111
+                    - 9105
+                    - 8299
+                    - 8275
+                    - 8210
+                    - 5007
+                    - 5008
+                    - 5003
+                    subStyleId: 8200
+        settings:
+            gameplayPatchVersionSeen: "11.23"
+            gameplayUpdatedPerksSeen: []
+            gridModeEnabled: true
+            showLongDescriptions: true
+            showPresetPages: true
+    schemaVersion: 5

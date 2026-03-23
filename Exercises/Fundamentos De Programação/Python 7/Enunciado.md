@@ -1,0 +1,1 @@
+# 🐍 PYTHON — Percorredor de diretório: lista todos os arquivos em pasta e subpastas

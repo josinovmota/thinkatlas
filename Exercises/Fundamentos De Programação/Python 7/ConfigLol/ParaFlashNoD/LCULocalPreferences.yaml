@@ -1,0 +1,43 @@
+lol-clash:
+    data:
+        simpleStateFlagIds:
+        - "registration_open_tournament_93201"
+        - "registration_open_tournament_93281"
+        - "registration_open_tournament_93221"
+        - "lock_in_open_tournament_93301_phase_88561"
+        - "registration_open_tournament_93241"
+        - "lock_in_open_tournament_93281_phase_88541"
+        - "lock_in_open_tournament_93241_phase_88501"
+        - "registration_open_tournament_93261"
+        - "registration_open_tournament_93321"
+    schemaVersion: 1
+lol-home:
+    data:
+        useTFTOverride: false
+    schemaVersion: 0
+lol-premade-voice:
+    data:
+        currentCaptureDeviceHandle: "Default System Device"
+        inputVolume: 100
+        vadSensitivity: 65
+    schemaVersion: 1
+lol-replays:
+    data:
+        dontShowEogUsageTip: true
+    schemaVersion: 1
+lol-skins-viewer:
+    data:
+        completeSetIdMap: null
+        lastSessionId: "eyJraWQiOiJzMSIsInR5cCI6ImlkX3Rva2VuK2p3dCIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiUFNCd1FDOWVSZU5naF80RW1XUHZZQSIsInN1YiI6ImEyYmIxYzViLWY3ZWUtNTRmOC05OWVkLWJkMWMxNTFkY2ExMiIsImNvdW50cnkiOiJicmEiLCJwbGF5ZXJfcGxvY2FsZSI6InB0LUJSIiwiYW1yIjpbInBhc3N3b3JkIl0sImlzcyI6Imh0dHBzOi8vYXV0aC5yaW90Z2FtZXMuY29tIiwibG9sIjpbeyJjdWlkIjozNzg2NDgsImNwaWQiOiJCUjEiLCJ1aWQiOjM0MDE5MTk0LCJ1bmFtZSI6Inh4YXNhbWl0ZXh4IiwicHRyaWQiOm51bGwsInBpZCI6Ik5BIiwic3RhdGUiOiJFTkFCTEVEIn1dLCJwaG9uZV9udW1iZXJfdmVyaWZpZWQiOnRydWUsImxvY2FsZSI6InB0X0JSIiwibm9uY2UiOiJBV1VMZE1ESlRVMnZsWFBaVFBjLTlnIiwiYWNjb3VudF92ZXJpZmllZCI6dHJ1ZSwiYXVkIjoibG9sIiwiYWNyIjoidXJuOnJpb3Q6YnJvbnplIiwibG9sX3JlZ2lvbiI6W3siYWN0aXZlIjp0cnVlLCJjcGlkIjoiQlIxIiwiY3VpZCI6Mzc4NjQ4LCJscCI6ZmFsc2UsInBpZCI6Ik5BIiwidWlkIjozNDAxOTE5NH0seyJhY3RpdmUiOmZhbHNlLCJjcGlkIjoiTkExIiwiY3VpZCI6MzQwMTkxOTQsImxwIjpmYWxzZSwicGlkIjoiTkEiLCJ1aWQiOjM0MDE5MTk0fV0sInBsYXllcl9sb2NhbGUiOiJwdC1CUiIsImV4cCI6MTY3NzYzMzIxNywiaWF0IjoxNjc3NTQ2ODE3LCJhY2N0Ijp7ImdhbWVfbmFtZSI6Ik5vc2ZlcmF0dXNzcyIsInRhZ19saW5lIjoiQlIxIn0sImFnZSI6MjAyMCwianRpIjoicXU2SUxjNDVWc3ciLCJsb2dpbl9jb3VudHJ5IjoiYnJhIn0.fJAv81T3NVsXh9Dt4eRYHURcdI5RHeXaJzDtf8JtP4oOavC1pPnVGAgm84nA7MpxZPFffg36MSPs3uFY3MPkPH2rA1XwN-wBFbxIIfffIlcFjJIr_PGbmAS5gTqpqS0IVBUhU7-j0hF8Z0Vl1nXzv_Nzg9E0Ax17RETVIrQYBsA"
+        lastVisitTime: 1676601177300
+        visitedSkinList: []
+    schemaVersion: 1
+lol-user-experience:
+    data:
+        hasBeenPromptedForPotatoMode: true
+        lastKnownMachineSpec: 5
+    schemaVersion: 3
+video:
+    data:
+        ZoomScale: 1.250000
+    schemaVersion: 1

@@ -1,0 +1,39 @@
+install:
+    crash_reporting:
+        enabled: true
+        type: "crashpad"
+    game-settings:
+        accountId: 219653804
+        modified: false
+        timestamp: 0
+    gameflow-patcher-lock: 1682158424447
+    gameflow-process-info: null
+    gameflow-spectate-reconnect-info: null
+    globals:
+        locale: "en_US"
+        region: "BR"
+    lcu-settings:
+        accountId: 219653804
+        modified: true
+        timestamp: 0
+    patcher:
+        client_migrated: true
+        client_patcher_available: true
+        game_migrated: true
+        game_patcher_available: true
+        locales:
+        - "en_GB"
+        - "en_US"
+        toggles:
+            new_client_patcher: 0
+            new_game_patcher: 0
+    perks-settings:
+        accountId: 219653804
+        modified: false
+        timestamp: 0
+    riotclient-upgrade:
+        recovery-failures: 3
+        seq-success-count: 185
+        success-count: 185
+    rso-auth:
+        install-identifier: "94f8b5fa4369b643a8899e4bb1dd9620"
