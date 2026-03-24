@@ -4,7 +4,7 @@ mensagem_para_criptografar = "Too late have I loved you, O Beauty so ancient, O 
 
 lista_mensagem_para_criptografar = list(mensagem_para_criptografar)
 
-alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a']
+alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 for indice, letra in enumerate(lista_mensagem_para_criptografar):
     if not letra.isalpha():

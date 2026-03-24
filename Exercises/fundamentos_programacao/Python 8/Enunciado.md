@@ -1,0 +1,1 @@
+# 🐍 Jogo de adivinhação com estatísticas: ao fim de cada rodada exibir número de tentativas, média histórica de tentativas e recorde, tudo persistido em arquivo
