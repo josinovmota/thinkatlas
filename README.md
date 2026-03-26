@@ -12,7 +12,7 @@ em cursos e estudos posteriores, também imortalizá-los aqui
 
 O `Claude` criou um plano de estudos composto por 8 fases, cada fase incluindo diversos exercícios:
 
-- Fase 0 - Fundamentos da programação
+- Fase 0 - [Fundamentos da programação](./Exercises/fundamentos_programacao)
 - Fase 1 - Fundamentos da matemática
 - Fase 2 - Análise de dados e SQL
 - Fase 3 - Estatística e Probabilidade
