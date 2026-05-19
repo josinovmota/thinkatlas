@@ -1,0 +1,1 @@
+# 🐍 Leitor e resumidor de CSV: abrir arquivo, detectar tipo de cada coluna (numérico vs. texto), imprimir contagem de linhas, nulos por coluna e tipo inferido

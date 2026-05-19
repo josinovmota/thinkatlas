@@ -1,0 +1,16 @@
+﻿nome,idade,salario,cidade,experiencia_anos,satisfacao,nivel,ativo
+Ana Lima,28,4500.50,São Paulo,3,8,junior,sim
+João Pereira,35,8200.00,Rio de Janeiro,10,7,senior,sim
+Maria Souza,42,12000.00,Belo Horizonte,18,9,senior,não
+Carlos Melo,25,3200.00,Curitiba,1,6,junior,sim
+Fernanda Costa,38,9500.75,Porto Alegre,12,8,pleno,sim
+Roberto Alves,52,15000.00,São Paulo,25,7,senior,sim
+Juliana Ramos,31,6800.00,Salvador,7,9,pleno,não
+Pedro Silva,27,4100.00,Fortaleza,2,7,junior,sim
+Luciana Nunes,44,11200.50,Brasília,20,6,senior,sim
+Thiago Lima,33,7300.00,Manaus,8,8,pleno,sim
+Mariana Gomes,29,5200.00,Recife,4,9,junior,não
+Eduardo Santos,48,13500.00,São Paulo,22,5,senior,sim
+Beatriz Ferreira,,6100.00,Florianópolis,6,8,pleno,sim
+Diego Carvalho,36,8900.00,,11,,pleno,não
+Sofia Martins,23,2900.00,Campinas,0,7,junior,sim
