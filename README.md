@@ -20,5 +20,3 @@ O `Claude` criou um plano de estudos composto por 8 fases, cada fase incluindo d
 - Fase 5 - Deep learning e NLP
 - Fase 6 - Produção & Engenharia
 - Fase 7 - Portfólio & Empregabilidades
-
-Esse repositório está em pausa pois estou trabalhando em um side-project. Logo logo ele voltará à ativa
