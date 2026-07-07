@@ -1,1 +1,1 @@
-# 🐍 Gerador de relatório: dado CSV de vendas, calcular total por categoria, produto mais vendido, mês de pico e percentual de cada categoria — salvar como .txt formatado
+# 🐍 Gerador de relatório: dado CSV de vendas, calcular total por categoria, produto mais vendido, mês de pico | Depois de fazer esse exercício você está livre 
