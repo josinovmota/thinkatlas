@@ -38,16 +38,20 @@ def variance(lista):
     for valor in lista:
         numerador += ((valor - media_lista) ** 2)
 
-    print(numerador)
-
     return (numerador / denominador)
 
 def st_deviation(lista):
     return math.sqrt(variance(lista))
 
-print(f"""A média é: {media(lista_digitada_pelo_usuario)}
-A mediana é: {mediana(lista_digitada_pelo_usuario)}
-A moda é: {moda(lista_digitada_pelo_usuario)}
-A variance é: {variance(lista_digitada_pelo_usuario)}
-A standard deviation é: {st_deviation(lista_digitada_pelo_usuario)}
-""")
+
+def get_metrics(lista_digitada_pelo_usuario):
+    # O que eu faço aqui fere o pep-8, mas é só por fins didáticos de aprender unpack
+    return media(lista_digitada_pelo_usuario), mediana(lista_digitada_pelo_usuario), moda(lista_digitada_pelo_usuario), variance(lista_digitada_pelo_usuario), st_deviation(lista_digitada_pelo_usuario)
+
+if __name__ == "__main__":
+    lista_digitada_pelo_usuario = [1,4,5,7,3,2,123,512,3,121,7,5,3,1,6,8,9,421,214,321]
+
+    # O que eu faço aqui fere o pep-8, mas é só por fins didáticos de aprender unpack
+    media, mediana, moda, variance, st_deviation = get_metrics(lista_digitada_pelo_usuario.copy())
+
+    print(f"""\nA média é: {media}\nA mediana é: {mediana}\nA moda é: {moda}\nA variance é: {variance}\nA standard deviation é: {st_deviation}""")
