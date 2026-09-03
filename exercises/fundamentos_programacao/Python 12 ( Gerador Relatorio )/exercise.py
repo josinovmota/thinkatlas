@@ -18,7 +18,7 @@ def create_sales_df(df):
     dict_product_value = {}
 
     for produto, valor in zip(lista_produtos, lista_quantidades):
-        if produto not in dict_product_value.keys():
+        if produto not in dict_product_value:
             dict_product_value.update({produto: valor})
         else:
             dict_product_value[produto] = int(dict_product_value[produto]) + int(valor)
@@ -47,10 +47,10 @@ def best_month(almost_df):
             if date[5:7] == month:
                 index_dict[month].append(almost_df['data'].index(date))
 
-    for month in index_dict.keys():
-        if index_dict[month]:
+    for month, value in index_dict.items():
+        if value:
             placeholder_dict = {"produto": [], "quantidade": []}
-            for index in index_dict[month]:
+            for index in value:
                 placeholder_dict["produto"].append(almost_df["produto"][index])
                 placeholder_dict["quantidade"].append(almost_df["quantidade"][index])
             products_by_month_dict[month] = placeholder_dict
@@ -72,7 +72,7 @@ def best_month(almost_df):
     print(f"O melhor mês foi o {best_sales_month[0]} com {best_sales_month[1]} vendas")
 
 if __name__ == "__main__":
-    data = "exercises\\fundamentos_programacao\\Python 12\\vendas.csv"
+    data = "exercises\\fundamentos_programacao\\Python 12 ( Gerador Relatorio )\\vendas.csv"
     almost_df = deserialize(data)
 
     sales_df = create_sales_df(almost_df)

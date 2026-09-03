@@ -1,11 +1,9 @@
-from math import sqrt, pi, ceil, floor
+from math import ceil, floor, sqrt
+
 import matplotlib
 import matplotlib.patches
-from matplotlib.collections import PatchCollection
-
-
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from matplotlib.pyplot import xlim, ylim
 
 blue = 'C0'
@@ -16,25 +14,25 @@ purple = 'C4'
 orange = 'C2'
 gray = 'gray'
 
-class Polygon():
+class Polygon:
     def __init__(self, *vertices, color=blue, fill=None, alpha=0.4):
         self.vertices = vertices
         self.color = color
         self.fill = fill
         self.alpha = alpha
 
-class Points():
+class Points:
     def __init__(self, *vectors, color=black):
         self.vectors = list(vectors)
         self.color = color
 
-class Arrow():
+class Arrow:
     def __init__(self, tip, tail=(0,0), color=red):
         self.tip = tip
         self.tail = tail
         self.color = color
 
-class Segment():
+class Segment:
     def __init__(self, start_point, end_point, color=blue):
         self.start_point = start_point
         self.end_point = end_point
@@ -56,7 +54,7 @@ def extract_vectors(objects):
             yield object.start_point
             yield object.end_point
         else:
-            raise TypeError("Unrecognized object: {}".format(object))
+            raise TypeError(f"Unrecognized object: {object}")
 
 def draw(*objects, origin=True, axes=True, grid=(1,1), nice_aspect_ratio=True,
             width=6, save_as=None):
@@ -97,7 +95,7 @@ def draw(*objects, origin=True, axes=True, grid=(1,1), nice_aspect_ratio=True,
 
     for object in objects:
         if type(object) == Polygon:
-            for i in range(0,len(object.vertices)):
+            for i in range(len(object.vertices)):
                 x1, y1 = object.vertices[i]
                 x2, y2 = object.vertices[(i+1)%len(object.vertices)]
                 plt.plot([x1,x2],[y1,y2], color=object.color)
@@ -124,7 +122,7 @@ def draw(*objects, origin=True, axes=True, grid=(1,1), nice_aspect_ratio=True,
             x2, y2 = object.end_point
             plt.plot([x1,x2],[y1,y2], color=object.color)
         else:
-            raise TypeError("Unrecognized object: {}".format(object))
+            raise TypeError(f"Unrecognized object: {object}")
 
     fig = matplotlib.pyplot.gcf()
 

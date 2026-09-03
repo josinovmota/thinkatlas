@@ -1,5 +1,5 @@
-import random
 import csv
+import random
 
 print("Bem-vindo ao jogo de adivinhação! aqui você deverá tentar acertar um número de 0 a 100.")
 

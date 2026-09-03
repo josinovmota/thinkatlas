@@ -18,8 +18,6 @@ def outlier_detector(column, name):
     data = sorted(data)
     n = len(data)
 
-    q2 = mediana(data)
-
     if n % 2 == 0:
         lower_half = data[:n // 2]
         upper_half = data[n // 2:]
