@@ -1,1 +1,0 @@
-# 🐍 PYTHON — Contador de frequência: lê arquivo .txt e imprime as 20 palavras mais comuns

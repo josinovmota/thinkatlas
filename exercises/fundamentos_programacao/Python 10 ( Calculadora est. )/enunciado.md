@@ -1,1 +1,0 @@
-# 🐍 Calculadora de estatísticas do zero: dada lista de números digitados pelo usuário, calcular média, mediana, moda, variância e desvio padrão sem usar nenhuma biblioteca

@@ -1,1 +1,0 @@
-# 🐍 PYTHON — Calculadora textual: analisa entrada do usuário como '3 + 5 * 2' e avalia

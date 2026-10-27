@@ -1,1 +1,0 @@
-# 🐍 Detector de outliers: dada cada coluna numérica de um CSV, identificar e reportar valores abaixo de Q1−1.5×IQR ou acima de Q3+1.5×IQR
