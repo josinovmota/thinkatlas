@@ -9,5 +9,4 @@ repos:
     rev: 0.13.6
     hooks:
       - id: uv-lock
-      - id: uv-export
       - id: uv-sync
