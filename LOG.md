@@ -14,10 +14,10 @@
 
 - What it solves: It's one more layer to protect you against your code doing something that it's not supposed to do
 
-- Write a code that use it: 
+- Write a code that use it: [link to the code](C:\Users\josinovmota\Desktop\Workspace\thinkatlas\tests\test_pytest.py)
 
-### Learning-log
+## 2026/11/03 - Terça-Feira
 
-- O que aprendi:
-- Onde travei:
-- Próximo passo:
+- Why i'm studying this: Helps you to more secure about everything that you're pushing to your main branch.
+- What it does: CI helps us to add another layer of security to our version control system. It will assure that whenever it finds an error, it'll break the `git push`, forcing you to fix it or flag it as a controlled error
+- Write a code that use it: [link to the ci](C:\Users\josinovmota\Desktop\Workspace\thinkatlas\.github\workflows\ci.yml)
