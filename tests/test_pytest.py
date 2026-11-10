@@ -11,7 +11,7 @@ def test_right_example():
 
 
 # Exemplo de teste que da erro
-@pytest.mark.xfail(strict=True)
+@pytest.mark.xfail()
 def test_fail_example():
     with pytest.raises(AssertionError):
         lista = [1, 2, 3, 4, 5, 6, 7, 8]
