@@ -18,6 +18,17 @@
 
 ## 2026/11/03 - Terça-Feira
 
+### Ci
+
 - Why i'm studying this: Helps you to more secure about everything that you're pushing to your main branch.
 - What it does: CI helps us to add another layer of security to our version control system. It will assure that whenever it finds an error, it'll break the `git push`, forcing you to fix it or flag it as a controlled error
 - Write a code that use it: [link to the ci](C:\Users\josinovmota\Desktop\Workspace\thinkatlas\.github\workflows\ci.yml)
+
+## 2026/11/10 - Terça-Feira
+
+### Git essentials
+
+- Why i'm studying this: A version control system is an essential part of the development, even in my studies. It can help me to save my files in the cloud, undo problems that I created in the my repository thinkatlas and upload everything to github, so I can visualize it a little better
+- What it does: It creates the bridge between my computer and the github and also helps me to work with snapshots of my files, so when I commit an error, I can easily revert it
+- Write a code that use it: I've typed a lot of commands in my terminal, so I can't point it here, but I got used to `git add`, `git commit`, `git push`, `git branch`, `git switch`, `git checkout`, `git log`, `git revert`, `git merge`, `git diff`.
+
