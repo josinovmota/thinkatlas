@@ -8,7 +8,7 @@ carta = collections.namedtuple("Carta", ["rank", "naipe"])
 
 class Deck:
     rank = [number for number in range(1, 11)] + list("JQK")
-    naipe = "Paus,", "Ouros,", "Copas,", ["Espadas"]
+    naipe = ("Paus", "Ouros", "Copas", "Espadas")
 
     def __init__(self):
         self._cards = [carta(rank, naipe) for rank in self.rank for naipe in self.naipe]
