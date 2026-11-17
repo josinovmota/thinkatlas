@@ -32,3 +32,6 @@
 - What it does: It creates the bridge between my computer and the github and also helps me to work with snapshots of my files, so when I commit an error, I can easily revert it
 - Write a code that use it: I've typed a lot of commands in my terminal, so I can't point it here, but I got used to `git add`, `git commit`, `git push`, `git branch`, `git switch`, `git checkout`, `git log`, `git revert`, `git merge`, `git diff`.
 
+## 2026/11/17 - Terça-Feira
+
+### Python 

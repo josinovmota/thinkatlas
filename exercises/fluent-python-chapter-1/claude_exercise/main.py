@@ -23,5 +23,9 @@ class Playlist:
 
 playlist = Playlist()
 
+print(len(playlist))
+
+print(playlist[4])
+
 for sounds in playlist:
     print(sounds)
