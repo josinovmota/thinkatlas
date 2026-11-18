@@ -10,8 +10,13 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "ipykernel>=7.4.0",
     "pytest>=9.2.0",
 ]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+# Enables to import a library in the middle of a jupyter notebook
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["E402"]
