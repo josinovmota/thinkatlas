@@ -39,3 +39,9 @@
 - Why am I studying this: In Python you can use some tricks to access info about a object. We're able to use len(object) to discover the object size and we can use object[position] to discover the value that have the position index. This is normal in python so we learn it from the beggining, but when we learn about Classes and create them, our classes don't have the capability to invoke this special methods. That's why we use the occult methods __len__ and __getitem__. Whenever we do a `len(object)` we're invoking __len__(object), so if we create methods to do this inside our Class, we can able it to work in a more "Pythonic" way
 - What does it do: First of all we can use it to make your code clear, so the user don't have to think "What should I do to access the len of this object?". Instead, he'll just use the good old python
 - Write a code that use it: [special_methods](exercises\fluent-python-chapter-1\main.ipynb)
+
+## 2026/11/24 - Terça-Feira
+
+### Python expressions
+
+- Why am I studying this: The book start saying that listcomp and genexp are easily readable. I agree with that. Also I learned that floats have 24 bytes 
