@@ -44,4 +44,6 @@
 
 ### Python expressions
 
-- Why am I studying this: The book start saying that listcomp and genexp are easily readable. I agree with that. Also I learned that floats have 24 bytes 
+- Why am I studying this: The book start saying that listcomp and genexp are easily readable. I agree with that. Also I learned that floats have 24 bytes and a lot about unpacking. All of this are just techniques to make the code more readable, so their uses are a choice
+- What does it do: Make the code more readable
+- Write a code that use it: [python_expressions](exercises\fluent-python-chapter-2\main.ipynb)
